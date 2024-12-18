@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from demo.web3canvas.com/themeforest/tomato/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Dec 2024 05:57:13 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>Tomato Responsive Restaurant HTML5 Template</title>
+    <meta name="author" content="Surjith S M">
+
+    <!-- SEO -->
+    <meta name="description" content="Tomato is a Responsive HTML5 Template for Restaurants and food related services.">
+    <meta name="keywords" content="tomato, responsive, html5, restaurant, template, food, reservation">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Responsive Tag -->
+    <meta name="viewport" content="width=device-width">
+
+    <!-- CSS Files -->
+
+    <link rel="stylesheet" href="../stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="../stylesheets/fontawesome.css">
+    <link rel="stylesheet" href="../stylesheets/plugin.css">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+<!-- JS -->
+ <!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+<!-- jQuery (required for Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <!--[if lt IE 9]>
+            <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+    <!-- Preloder-->
+    <!-- <div class="preloder animated">
+        <div class="scoket">
+            <img src="img/preloader.svg" alt="" />
+        </div>
+    </div> -->
+    <style>
+        .services-slider .service-content {
+    background: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.services-slider img {
+    max-width: 80px;
+    margin: 0 auto 15px;
+}
+
+.services-slider h4 {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #333;
+}
+
+.services-slider p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+    </style>
+   <style>
+    /* Trusted Slider Wrapper */
+.trusted-slider {
+    background: #1c1c1c; /* Dark charcoal background */
+    padding: 50px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Slides List Reset */
+.trusted-slider .slides {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align slides in a row */
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Horizontal scroll for small screens */
+    gap: 20px;
+}
+
+/* Individual Testimonial Slide */
+.trusted-slider .slides li {
+    flex: 0 0 100%; /* Full-width on mobile */
+    max-width: 400px;
+    background: #282828; /* Dark gray card background */
+    border: 1px solid #b89d64; /* Golden accent border */
+    border-radius: 10px;
+    padding: 25px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: 0 auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trusted-slider .slides li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    border-color: #d4af37; /* Slightly brighter gold on hover */
+}
+
+/* Quote Image Styling */
+.trusted-slider .slides li img {
+    width: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    opacity: 0.8; /* Slight transparency */
+}
+
+/* Quote Body Text */
+.trusted-slider .quote-body {
+    font-size: 16px;
+    color: #e0e0e0; /* Light gray for readability */
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+/* Quote Author Styling */
+.trusted-slider .quote-author {
+    font-size: 14px;
+    color: #d4af37; /* Gold accent */
+    font-weight: bold;
+}
+
+.trusted-slider .quote-author span {
+    display: block;
+    font-size: 12px;
+    color: #bfbfbf; /* Muted light gray */
+    margin-top: 5px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .trusted-slider .slides li {
+        flex: 0 0 48%; /* Two cards on medium screens */
+    }
+}
+
+@media (min-width: 1200px) {
+    .trusted-slider .slides li {
+        flex: 0 0 30%; /* Three cards on large screens */
+    }
+}
+
+   </style>
+   <style>
+    /* Social Icons Wrapper */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    margin: 20px 0;
+}
+
+/* Individual Social Icon */
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #282828; /* Dark background for icons */
+    color: #b89d64; /* Gold color for icons */
+    border: 2px solid #b89d64; /* Border color */
+    border-radius: 50%; /* Circular icons */
+    font-size: 20px;
+    text-decoration: none; /* Remove underline */
+    transition: all 0.3s ease;
+}
+
+/* Hover Effects */
+.social-icon:hover {
+    background: #d4af37; /* Gold hover background */
+    color: #282828; /* Dark icon color on hover */
+    border-color: #d4af37;
+    transform: translateY(-5px); /* Lift effect */
+}
+
+/* Specific Icon Colors */
+.social-icon.fb:hover {
+    background: #3b5998; /* Facebook Blue */
+    color: #fff;
+}
+
+.social-icon.insta:hover {
+    background: #e4405f; /* Instagram Pinkish Red */
+    color: #fff;
+}
+
+.social-icon.twitter:hover {
+    background: #1da1f2; /* Twitter Blue */
+    color: #fff;
+}
+
+   </style>
+<style>
+    /* Image Wrapper */
+.image-wrapper {
+    overflow: hidden;
+    border-radius: 10px; /* Optional: Rounded corners */
+    position: relative;
+}
+
+/* Image Styling */
+.image-wrapper img {
+    width: 100%; /* Make it responsive */
+    display: block;
+    transition: transform 0.5s ease, box-shadow 0.5s ease; /* Smooth transition */
+}
+
+/* Hover Effects */
+.image-wrapper:hover img {
+    transform: scale(1.1); /* Zoom-in effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Add a shadow */
+}
+
+</style>
+    <div class="body">
+
+        <div class="main-wrapper">
+            <!-- Navigation-->
+            <nav class="navbar navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="./index.html">
+                            <img src="../img/nav-logo.png" alt="nav-logo">
+                        </a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="./index.html" class="" data-toggle="" role="" aria-haspopup="true" aria-expanded="false">Home</span></a>
+                              
+                            </li>
+                            <li class="dropdown">
+                                <a href="./menu.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu</a>
+                               
+                            </li>
+                            <li class="dropdown">
+                                <a href="./reservation.html" class="" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Reservation</a>
+                               
+                            </li>
+                            <li class="dropdown">
+                                <a href="./about.html" class="" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">About Us</a>
+                               
+                            </li>
+                           
+                          
+                            <li class="dropdown">
+                                <a href="./shop.html" class="" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                               
+                            </li>
+                            <li class="dropdown">
+                                <a href="./register.html" class="" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Register</a>
+                               
+                            </li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        
+                        </ul>
+                    </div>
+                    <!--/.navbar-collapse -->
+                </div>
+            </nav>
+
+           <!-- Page Header -->
+<section class="page_header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="text-uppercase wow fadeInDown">About us</h2>
+                <p class="wow fadeInUp">Read our Story, How we started and about the Team</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+            <!-- About -->
+            <section class="about2">
+                <div class="container">
+                    <div class="row wow fadeInUp">
+                        <div class="col-md-5">
+                            <div class="image-wrapper">
+                                <img src="../img/about.png" class="img-responsive" alt="Our Story Image" />
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-7 text-left">
+                            <h2 class="text-left">Our Story</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage</p>
+                            <a class="btn btn-default" role="button" href="#menu">See Our Menu</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services -->
+            <section class="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-header wow fadeInDown">
+                                <h1 class="white">Special Service<small>What Special services we are offering now</small></h1>
+                            </div>
+                        </div>
+                    </div>
+                  
+                  
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="services-slider owl-carousel">
+                                <div class="service-content text-center">
+                                    <img src="../img/ico1.png" class="center-block" alt="Birthday" />
+                                    <h4 class="text-uppercase">Birthday Party</h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                                <div class="service-content text-center">
+                                    <img src="../img/ico2.png" class="center-block" alt="Wedding" />
+                                    <h4 class="text-uppercase">Wedding Party</h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                                <div class="service-content text-center">
+                                    <img src="../img/ico1.png" class="center-block" alt="Birthday" />
+                                    <h4 class="text-uppercase">Birthday Party</h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                                <div class="service-content text-center">
+                                    <img src="../img/ico2.png" class="center-block" alt="Wedding" />
+                                    <h4 class="text-uppercase">Wedding Party</h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script>
+                $(document).ready(function () {
+                    $('.services-slider').owlCarousel({
+                        loop: true,            // Enable infinite loop
+                        margin: 20,            // Add spacing between items
+                        nav: true,             // Show navigation arrows
+                        dots: true,            // Show dots for pagination
+                        autoplay: true,        // Enable autoplay
+                        autoplayTimeout: 3000, // Slide change interval (3s)
+                        responsive: {
+                            0: {
+                                items: 1       // 1 item on small screens
+                            },
+                            768: {
+                                items: 2       // 2 items on medium screens
+                            },
+                            1200: {
+                                items: 3       // 3 items on large screens
+                            }
+                        }
+                    });
+                });
+            </script>
+            
+            <!-- Team -->
+            <section class="team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-header wow fadeInDown">
+                                <h1>Our Team<small>The Hardworking Team behind the restaurant</small></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 text-center">
+                            <div class="team-staff wow fadeInUp" data-wow-delay="0.2s">
+                                <img src="../img/team/1.png" class="img-responsive center-block" alt="" />
+                                <h4>Enter Name Here</h4>
+                                <p>Designation here</p>
+                                <ul class="team-social">
+                                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 text-center">
+                            <div class="team-staff wow fadeInUp" data-wow-delay="0.4s">
+                                <img src="../img/team/2.png" class="img-responsive center-block" alt="" />
+                                <h4>Enter Name Here</h4>
+                                <p>Designation here</p>
+                                <ul class="team-social">
+                                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 text-center">
+                            <div class="team-staff wow fadeInUp" data-wow-delay="0.6s">
+                                <img src="../img/team/3.png" class="img-responsive center-block" alt="" />
+                                <h4>Enter Name Here</h4>
+                                <p>Designation here</p>
+                                <ul class="team-social">
+                                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 text-center">
+                            <div class="team-staff wow fadeInUp" data-wow-delay="0.8s">
+                                <img src="../img/team/4.png" class="img-responsive center-block" alt="" />
+                                <h4>Enter Name Here</h4>
+                                <p>Designation here</p>
+                                <ul class="team-social">
+                                    <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="trusted">
+                <!-- Quotes section-->
+                <div class="trusted-quote">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-offset-1 col-md-10 wow fadeIn">
+                                <div class="trusted-slider">
+                                    <ul class="slides">
+                                        <li>
+                                            <img src="../img/quote.png" alt="quote">
+                                            <p class="quote-body">The world’s a big, big stage for this notorious deli smack in the middle of the theatre district, infamously famous for its over-the-top corned beef and pastrami sandwiches, chopped liver, blintzes, celebrities, salami, smoked fish and New York’s finest cheesecake.</p>
+                                            <p class="quote-author">Anthony Reed, <span>New York</span></p>
+                                        </li>
+                                        <li>
+                                            <img src="../img/quote.png" alt="quote">
+                                            <p class="quote-body">You might not find dragon meat on the menu, but you’ll find pretty much anything else that walks, swims or flies, cooked up in more ways than there are people in the Guangdong province.</p>
+                                            <p class="quote-author">Gemma Arterton, <span>Bay Area</span></p>
+                                        </li>
+                                        <li>
+                                            <img src="../img/quote.png" alt="quote">
+                                            <p class="quote-body">This NYC historical landmark in the heart of the Theatre District has been serving up suds and down home pub food since 1892.</p>
+                                            <p class="quote-author">Zachary Burton, <span>San Francisco</span></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- menu-->
+            <section class="menu space60" id="menu">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="page-header wow fadeInDown">
+                                <h1>Our Menu <small>These fine folks trusted the award-winning restaurant.</small></h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-menu wow fadeInUp">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="menu-tags">
+                                    <span data-filter="*" class="tagsort-active">All</span>
+                                    <span data-filter=".starter">Starters</span>
+                                    <span data-filter=".breakfast">Breakfast</span>
+                                    <span data-filter=".lunch">Lunch</span>
+                                    <span data-filter=".dinner">Dinner</span>
+                                    <span data-filter=".desserts">Desserts</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row menu-items">
+                            <div class="menu-item col-sm-6 col-xs-12 starter dinner desserts">
+                                <div class="menu-wrapper">
+                                    <img src="../img/bg2.png" alt="English asparagus" class="menu-img">
+                                    <h4>English Asparagus</h4>
+                                    <span class="price">$14.95</span>
+                                    <p>Pelletentesque enim. Aliquam tempor.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item col-sm-6 col-xs-12 starter">
+                                <div class="menu-wrapper">
+                                    <img src="../img/bg2.png" alt="Salmon dish" class="menu-img">
+                                    <h4>Grilled Salmon</h4>
+                                    <span class="price">$18.95</span>
+                                    <p>Freshly grilled with aromatic herbs.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item col-sm-6 col-xs-12 breakfast desserts starter">
+                                <div class="menu-wrapper">
+                                    <img src="../img/bg2.png" alt="Pancakes" class="menu-img">
+                                    <h4>Pancakes</h4>
+                                    <span class="price">$12.95</span>
+                                    <p>Fluffy pancakes with maple syrup.</p>
+                                </div>
+                            </div>
+                            <div class="menu-item col-sm-6 col-xs-12 lunch">
+                                <div class="menu-wrapper">
+                                    <img src="../img/bg2.png" alt="Caesar salad" class="menu-img">
+                                    <h4>Caesar Salad</h4>
+                                    <span class="price">$10.95</span>
+                                    <p>Crisp lettuce, parmesan, and dressing.</p>
+                                </div>
+                            </div>
+                            <!-- Repeat for other menu items -->
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="menu-btn">
+                                    <a class="btn btn-default btn-lg" href="menu_all.html" role="button">Explore Our Menu</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<style>
+    /* General Styling */
+.menu {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.page-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.page-header small {
+    display: block;
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Menu Tag Styling */
+.menu-tags {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu-tags span {
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.menu-tags span:hover,
+.menu-tags .tagsort-active {
+    color: #ff5733;
+}
+
+/* Menu Item Styling */
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: 280px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.menu-wrapper {
+    padding: 20px;
+}
+
+.menu-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff5733;
+    margin-bottom: 10px;
+    display: block;
+}
+
+p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Button Styling */
+.menu-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.menu-btn a {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.menu-btn a:hover {
+    background-color: #ff2e00;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: 100%;
+    }
+}
+
+</style>            
+
+            <!-- subscribe -->
+            <section class="subscribe">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Subscribe</h1>
+                            <p>Get updates about new dishes and upcoming events</p>
+                            <form class="form-inline" action="https://demo.web3canvas.com/themeforest/tomato/php/subscribe.php" id="invite" method="POST">
+                                <!-- Email Input Field -->
+                                <div class="form-group">
+                                    <input class="e-mail form-control" name="email" id="address" type="email" placeholder="Your Email Address" required>
+                                </div>
+            
+                                <!-- Custom Submit Button with Image -->
+                                <button type="submit" class="arrow-btn">
+                                    <img src="../img/image-arrow.png" alt="Submit">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+         <style>
+            /* Subscribe Section Styling */
+.subscribe {
+    background: url('../img/subscribe-bg.jpg') no-repeat center center/cover; /* Background Image */
+    padding: 80px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.subscribe::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    z-index: 1;
+}
+
+.subscribe .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* Heading and Text */
+.subscribe h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #d4af37; /* Golden accent color */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.subscribe p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #e0e0e0; /* Light gray */
+}
+
+/* Form Styling */
+.subscribe form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe .form-control {
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    transition: box-shadow 0.3s ease;
+}
+
+.subscribe .form-control:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(212, 175, 55, 0.8); /* Golden glow */
+}
+
+/* Custom Image Arrow Button */
+.arrow-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.arrow-btn img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.arrow-btn:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .subscribe h1 {
+        font-size: 36px;
+    }
+    .subscribe p {
+        font-size: 16px;
+    }
+    .subscribe .form-control {
+        width: 100%;
+    }
+}
+
+         </style>        
+
+            <!-- Footer-->
+            <section class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <h1>About us</h1>
+                            <p>Duis leo justo, condimentum at purus eu,Aenean sed dolor sem. Etiam massa libero, auctor vitae egestas et, accumsan quis nunc.Duis leo justo, condimentum at purus eu, posuere pretium tellus.</p>
+                            <a href="about.html">Read more &rarr;</a>
+                        </div>
+                        <div class="col-md-4  col-sm-6">
+                            <h1>Recent post</h1>
+                            <div class="footer-blog clearfix">
+                                <a href="blog_right_sidebar.html">
+                                    <img src="../img/thumb8.png" class="img-responsive footer-photo" alt="blog photos">
+                                    <p class="footer-blog-text">Hand picked ingredients for our best customers</p>
+                                    <p class="footer-blog-date">29 may 2015</p>
+                                </a>
+                            </div>
+                            <div class="footer-blog clearfix last">
+                                <a href="blog_right_sidebar.html">
+                                    <img src="../img/thumb9.png" class="img-responsive footer-photo" alt="blog photos">
+                                    <p class="footer-blog-text">Daily special foods that you will going to love</p>
+                                    <p class="footer-blog-date">29 may 2015</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4  col-sm-6">
+                            <h1>Reach us</h1>
+                            <div class="social-icons">
+                                <a href="https://facebook.com" target="_blank" class="social-icon fb">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://instagram.com" target="_blank" class="social-icon insta">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="https://twitter.com" target="_blank" class="social-icon twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div>
+                            
+                            <div class="footer-address">
+                                <p><i class="fa fa-map-marker"></i>28 Seventh Avenue, Neew York, 10014</p>
+                                <p><i class="fa fa-phone"></i>Phone: (415) 124-5678</p>
+                                <p><i class="fa fa-envelope-o"></i><a href="https://demo.web3canvas.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="681b1d1818071a1c281a0d1b1c091d1a09061c460b0705">[email&#160;protected]</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer - Copyright -->
+                <div class="footer-copyrights">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p><i class="fa fa-copyright"></i> 2015.Tomato.All rights reserved. Designed with <i class="fa fa-heart primary-color"></i> by Surjithctly</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- STYLE SWITCHER 
+============================================= -->
+    <!-- <div class="b-settings-panel">
+        <div class="settings-section">
+            <span>
+        Boxed 
+        </span>
+            <div class="b-switch">
+                <div class="switch-handle"></div>
+            </div>
+            <span>
+        Wide 
+        </span>
+        </div>
+        <hr class="dashed" style="margin: 15px 0px;">
+        <h5>Main Background</h5>
+        <div class="settings-section bg-list">
+            <div class="bg-wood_pattern"></div>
+            <div class="bg-shattered"></div>
+            <div class="bg-vichy"></div>
+            <div class="bg-random-grey-variations"></div>
+            <div class="bg-irongrip"></div>
+            <div class="bg-gplaypattern"></div>
+            <div class="bg-diamond_upholstery"></div>
+            <div class="bg-denim"></div>
+            <div class="bg-crissXcross"></div>
+            <div class="bg-climpek"></div>
+        </div>
+        <hr class="dashed" style="margin: 15px 0px;">
+        <h5>Color Scheme</h5>
+        <div class="settings-section color-list">
+            <div data-src="css/themes/blue.css" style="background: #45b5f5"></div>
+            <div data-src="css/themes/brown.css" style="background: #dc8068"></div>
+            <div data-src="css/themes/cyan.css" style="background: #00becc"></div>
+            <div data-src="css/themes/green.css" style="background: #5bb75b"></div>
+            <div data-src="css/themes/orange.css" style="background: #ff7149"></div>
+            <div data-src="css/themes/pink.css" style="background: #fba1a1"></div>
+            <div data-src="css/themes/red.css" style="background: #dc3522"></div>
+            <div data-src="css/themes/yellow.css" style="background: #fdb813"></div>
+        </div>
+
+        <a data-src="css/style.css" class="reset"><span class="bg-wood_pattern">Reset</span></a>
+
+        <div class="btn-settings"></div>
+    </div> -->
+    <!-- END STYLE SWITCHER 
+============================================= -->
+
+    <!-- Javascript -->
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.flexslider-min.js"></script>
+    <script src="js/vendor/spectragram.js"></script>
+    <script src="js/vendor/owl.carousel.min.js"></script>
+    <script src="js/vendor/velocity.min.js"></script>
+    <script src="js/vendor/velocity.ui.min.js"></script>
+    <script src="js/vendor/bootstrap-datepicker.min.js"></script>
+    <script src="js/vendor/bootstrap-clockpicker.min.js"></script>
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/vendor/slick.min.js"></script>
+    <script src="js/vendor/wow.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/vendor/vegas/vegas.min.js"></script>
+    <script src="js/vendor/jquery.mb.YTPlayer.js"></script>
+    <script src="js/vendor/jquery.stellar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor/mc/jquery.ketchup.all.min.js"></script>
+    <script src="js/vendor/mc/main.js"></script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"8f34aba619990d8d","version":"2024.10.5","r":1,"serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"token":"1a2187940c214caa9d3fed19b4904902","b":1}' crossorigin="anonymous"></script>
+</body>
+
+
+<!-- Mirrored from demo.web3canvas.com/themeforest/tomato/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 17 Dec 2024 05:57:17 GMT -->
+</html>
